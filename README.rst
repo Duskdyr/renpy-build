@@ -44,7 +44,7 @@ To get ready to build, log in as the rb user, and then run the following
 commands to instal git and clone renpy-build::
 
     sudo apt install git
-    git clone https://github.com/renpy/renpy-build
+    git clone -b ffmpeg-4.4.4 https://github.com/duskdyr/renpy-build.git
 
 Change into the renpy-build directory, and run prepare.sh::
 
