@@ -130,6 +130,9 @@ def build(c: Context):
         --enable-demuxer=ogg
         --enable-demuxer=wav
         --enable-demuxer=av1
+        --enable-demuxer=aac
+        --enable-demuxer=h264
+        --enable-demuxer=h265
 
         --enable-decoder=flac
         --enable-decoder=mp2
@@ -156,6 +159,9 @@ def build(c: Context):
         --enable-decoder=vp8
         --enable-decoder=vp9
         --enable-decoder=libdav1d
+        --enable-decoder=aac
+        --enable-decoder=h264
+        --enable-decoder=h265
 
         --enable-parser=mpegaudio
         --enable-parser=mpegvideo
@@ -164,6 +170,9 @@ def build(c: Context):
         --enable-parser=vp8
         --enable-parser=vp9
         --enable-parser=av1
+        --enable-parser=aac
+        --enable-parser=h264
+        --enable-parser=h265
 
         --disable-iconv
         --disable-alsa
